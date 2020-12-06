@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}  
+body{
+	background-image: url("nn.png");
+	}
+	a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    text-decoration-color: none;
+    color: black;
+   } 
+   a:visited {
+    color: black; /* Цвет посещенных ссылок */
+   }
+   a:active {
+    color: black; /* Цвет активных ссылок */
+   }
+   a:hover{
+    color: rgb(255, 151, 211); 
+   }
+
+.menu{
+	margin-left:
+}
+.grafik{
+    background-color: rgba(211, 227, 240, 1);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100012;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    position: fixed;
+    font-family: 'Oswald';
+    height: 10%;
+    width: 100%;
+    
+    grid-template-rows: min-content min-content 1fr;
+    grid-template-columns: 100%;
+
+}
+.birge, .birge_1, .birge_2{
+    display: flex;
+}
+.social-whatsapp{
+    left: 100px;
+}
+.header{
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    box-sizing: border-box;
+    height: 80px;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    display:flex;
+    padding: 100px 200px;
+    font-size: 40px;
+    color: black;
+    
+} 
+#basy{
+    cursor: pointer;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 170px;
+
+}
+#log, #products, #delivery, #about_us, #bakery, #torts, #eclare, #capcakes, #chocolate, #adress, #flip{
+    cursor: pointer;
+}
